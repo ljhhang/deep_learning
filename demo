@@ -1,3 +1,5 @@
+## 随便放的代码，仅用于测试
+
 # PyTorch
 import torch
 import torch.nn as nn
@@ -19,3 +21,5 @@ np.random.seed(myseed)
 torch.manual_seed(myseed)
 if torch.cuda.is_available():
     torch.cuda.manual_seed_all(myseed)
+    
+  
